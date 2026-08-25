@@ -1,0 +1,10 @@
+### GitIgnore
+
+.idea
+*.iml
+out
+gen
+.venv
+
+test
+/workbooks/OLD_data_exploration.py

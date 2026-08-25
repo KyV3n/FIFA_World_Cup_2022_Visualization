@@ -1,0 +1,50 @@
+attribute; description
+player; Full name of the player
+team; National team the player is part of
+club; Club the player is part of
+age_years; Age of the player in full years
+age_float; Age of the player as a float value (taking into account days)
+minutes_90s; 90s played  Minutes played divided by 90
+tackles; Number of players tackled
+tackles_won; Tackles in which the tackler's team won possession of the ball
+succesful_tackles_pct; Percentage of total tackles in the tackler's team won possession of the ball
+tackles_def_3rd; Tackles in defensive 1/3
+tackles_mid_3rd; Tackles in middle 1/3
+dribble_tackles; Number of dribblers tackled
+dribbled_past; Number of times dribbled past by an opposing player
+dribbles_vs; Number of times dribbled past plus number of tackles
+dribble_tackles_pct; Percentage of dribblers tackled. Dribblers tackled divided by dribblers tackled plus times dribbled past. Minimum .625
+blocks; Number of times blocking the ball by standing in its path
+blocked_shots; Number of times blocking a shot by standing in its path
+blocked_passes; Number of times blocking a pass by standing in its path
+interceptions; Number of interceptions
+tackles_interceptions; Number of players tackled plus number of interceptions
+clearances; Number of clearances
+errors; Mistakes leading to an opponent's shot
+touches; Number of times a player touched the ball. Note: Receiving a pass, then dribbling, then sending a pass counts as one touch
+touches_def_pen_area; Touches in defensive penalty area
+touches_def_pen_area_pct; Percentage of total touches in defensive penalty area
+touches_def_3rd; Touches in defensive 1/3
+touches_mid_3rd; Touches in middle 1/3
+miscontrols; Number of times a player failed when attempting to gain control of a ball
+dispossessed; Number of times a player loses control of the ball after being tackled by an opposing player. Does not include attempted dribbles
+passes_received; Number of times a player successfully received a pass
+passes_completed; Number of completed passes
+passes; Number of attempted passes
+passes_pct; Pass Completion Percentage Minimum 30 minutes played per squad game to qualify as a leader
+passes_progressive_distance; Progressive Distance Total distance, in yards, that completed passes have traveled towards the opponent's goal. Passes away from opponent's goal are counted as zero progressive yards.
+assisted_shots; Passes that directly lead to a shot (assisted shots)
+passes_into_final_third; Completed passes that enter the 1/3 of the pitch closest to the goal. Not including set pieces
+passes_dead; Dead-ball passes Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+passes_switches; Passes that travel more than 40 yards of the width of the pitch
+passes_blocked; Passes blocked by the opponent who was standing it the path
+cards_yellow; Yellow Cards
+cards_red; Red Cards
+fouls; Fouls Committed
+fouled; Fouls Drawn
+pens_conceded; Penalty Kicks Conceded
+own_goals; Own Goals
+ball_recoveries; Number of loose balls recovered
+aerials_won; Aerials won
+aerials_lost; Aerials lost
+aerials_won_pct; Percentage of aerials won Minimum .97 aerial duels per squad game to qualify as a leader
